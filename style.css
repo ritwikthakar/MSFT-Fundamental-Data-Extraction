@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lavender;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.summary {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  margin: 0 0 5px 0;
+}
+
+.heading {
+  background-color: lightgray;
+  padding: 10px;
+  border: 1px solid darkgrey;
+  cursor: pointer;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  margin-bottom: 0;
+}
